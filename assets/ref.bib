@@ -13,16 +13,6 @@
   date = {2040},
 }
 
-@inproceedings{example_proceeding,
-    Author = {J. Doe},
-    Year = {2040},
-    Title = {Example title},
-    Booktitle = {Example Book},
-    Address = {Pasadena, CA},
-    file = {example_proceeding.pdf},
-    abstract = {Example abstract.},
-}
-
 @incollection{example_conference,
     author = {J. Doe},
     title = {Example talk},
@@ -30,25 +20,28 @@
     year = {2040},
 }
 
-@unpublished{feynman06,
-    Author = {R. P. Feynman and J. M. Cline},
-    Title = {Feynman lectures on the strong interations},
-    Note = {arXiv:2006.08594},
-    doi = {2006.08594},
-    file = {feynman06.pdf},
-    abstract = {These twenty-two lectures, with exercises, comprise the extent of what was meant to be a full-year graduate-level course on the strong interactions and QCD, given at Caltech in 1987-88. The course was cut short by the illness that led to Feynman's death. Several of the lectures were finalized in collaboration with Feynman for an anticipated monograph based on the course. The others, while retaining Feynman's idiosyncrasies, are revised similarly to those he was able to check. His distinctive approach and manner of presentation are manifest throughout. Near the end he suggests a novel, nonperturbative formulation of quantum field theory in D dimensions. Supplementary material is provided in appendices and ancillary files, including verbatim transcriptions of three lectures and the corresponding audiotaped recordings.},
+@misc{remix,
+      title={Re-Mix: Optimizing Data Mixtures for Large Scale Imitation Learning}, 
+      author={Joey Hejna and Chethan Bhateja and Yichen Jiang and Karl Pertsch and Dorsa Sadigh},
+      year={2024},
+      eprint={2408.14037},
+      archivePrefix={arXiv},
+      file={remix.pdf},
+      primaryClass={cs.RO},
+      Note = {arXiv:2408.14037},
+      abstract={Increasingly large imitation learning datasets are being collected with the goal of training foundation models for robotics. However, despite the fact that data selection has been of utmost importance in vision and natural language processing, little work in robotics has questioned what data such models should actually be trained on. In this work we investigate how to weigh different subsets or ``domains'' of robotics datasets for robot foundation model pre-training. Concrete, we use distributionally robust optimization (DRO) to maximize worst-case performance across all possible downstream domains. Our method, Re-Mix, addresses the wide range of challenges that arise when applying DRO to robotics datasets including variability in action spaces and dynamics across different datasets. Re-Mix employs early stopping, action normalization, and discretization to counteract these issues. Through extensive experimentation on the largest open-source robot manipulation dataset, the Open X-Embodiment dataset, we demonstrate that data curation can have an outsized impact on downstream performance. Specifically, domain weights learned by Re-Mix outperform uniform weights by 38\% on average and outperform human-selected weights by 32\% on datasets used to train existing generalist robot policies, specifically the RT-X models.},
+      url={https://arxiv.org/abs/2408.14037}, 
 }
 
-@article{feynman1939forces,
-  title={Forces in molecules},
-  author={R. P. Feynman},
-  journal={Physical Review},
-  volume={56},
-  number={4},
-  pages={340},
-  year={1939},
-  doi={10.1103/PhysRev.56.340},
-  file={feynman39.pdf},
-  abstract={Formulas have been developed to calculate the forces in a molecular system directly, rather than indirectly through the agency of energy. This permits an independent calculation of the slope of the curves of energy vs. position of the nuclei, and may thus increase the accuracy, or decrease the labor involved in the calculation of these curves. The force on a nucleus in an atomic system is shown to be just the classical electrostatic force that would be exerted on this nucleus by other nuclei and by the electrons' charge distribution. Qualitative implications of this are discussed.},
-}
-
+@inproceedings{domain_adapt,
+  author={Jiang, Y.},
+  booktitle={3rd International Symposium on Electrical, Electronics and Information Engineering (ISEEIE 2023)}, 
+  title={Domain adaptation semantic segmentation for self-driving cars}, 
+  year={2023},
+  volume={2023},
+  number={},
+  pages={126-130},
+  keywords={},
+  file={domain_adapt.pdf},
+  abstract={As an extension of the traditional deep learning network, semantic segmentation aims to generate a class label for each pixel in the input image, thus grouping up together pixels that possess the same semantic label. It is always one of the key topics in computer vision domain, and it is also a vital concept in building self-driving automobile systems. One problem often met in real-life semantic segmentation problem is that researchers often can't provide a large enough dataset containing all diversely different scenes around the world, causing the model to underfit. In this article we show you how we use VGG16 deep learning model to build a Fully Convolutional Network as to achieve pixel-wise semantic prediction, and how we addressed aforementioned limitation by training the model using video game scenes from GTA5. Since there are style-level discrepancies between the game scenes and the real life scenes, we utilize Adversarial Domain Adaptation to overcome problems caused by such domain shifts and to make the model perform better when working in real life scenes.},
+  doi={10.1049/icp.2023.1892}}
