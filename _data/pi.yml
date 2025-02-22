@@ -1,17 +1,17 @@
-- name: Dr. Richard Feynman
+- name: Yichen Jiang
   photo: headshot.jpg
-  info: Richard C. Tolman Professor, California Institute of Technology
-  email: richard@university.edu
-  github: https://github.com/
-  researchgate: https://www.researchgate.net/
-  scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
-  cv: cv/cv.pdf
+  info: Yichen Jiang, Stanford University, Electrical Engineering
+  email: ycjiang@stanford.edu
+  github: https://github.com/EthanJ666
+  #researchgate: https://www.researchgate.net/
+  #scholar: https://scholar.google.com/citations?user=B7vSqZsAAAAJ
+  cv: cv/CV_Yichen_Jiang.pdf
   # Change the items in "education" you have (up to 6)
   education:
     [
-      "(1942) Ph.D. Physics, Princeton University",
-      "(1939) B.S. Physics, Massachusetts Institute of Technology",
+      "(2023 -) Stanford University, M.S. in Electrical Engineering",
+      "(2018 - 2022) UC San Diego, B.S. in Electrical Engineering",
     ]
 
   educationshort:
-    ["(1942) Ph.D. Physics, Princeton", "(1939) B.S. Physics, MIT"]
+    ["(2023 - ) M.S. EE, Stanford", "(2018 - 2022) B.S. EE, UCSD"]

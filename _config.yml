@@ -1,7 +1,7 @@
 # Site settings
-title: Richard Feynman
-email: richard@university.edu
-description: Academic webpage of Dr. Richard Feynman
+title: Yichen Jiang (Ethan)
+email: ycjiang@stanford.edu
+description: Academic webpage of Yichen Jiang
 baseurl: ""
 url: ""
 
@@ -12,14 +12,15 @@ url: ""
 
 # Footer info
 affiliation: >
-  Richard Feynman<br/>
-  Professor of Physics<br/>
-  California Institute of Technology
+  Yichen Jiang<br/>
+  Electrical Engineering<br/>
+  Stanford University
 
-location: >
-  California Institute of Technology<br/>
-  1200 E California Blvd<br/>
-  Pasadena, CA 91125
+
+#location: >
+#  California Institute of Technology<br/>
+#  1200 E California Blvd<br/>
+#  Pasadena, CA 91125
 
 contact: >
   <a href="mailto:richard@university.edu" target="_blank"><i class="fa fa-envelope fa-1x"></i> Contact Richard via email</a> <br/>
@@ -29,12 +30,12 @@ contact: >
 nav_pages:
   - name: about
   - name: publications
-  - name: talks
+  #- name: talks
   - name: research
-  - name: software
-  - name: team
-  - name: teaching
-  - name: blogs
+  #- name: software
+  #- name: team
+  #- name: teaching
+  #- name: blogs
 
 include:
   - .htaccess
